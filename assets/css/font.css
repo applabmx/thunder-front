@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Lato&display=swap');
+
+/* body {
+    font-family: "Bayon", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+} */
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.bayon-regular {
+    font-family: "Bayon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-color{
+    color: #F5B002;;
+}
+
+.text-navbar{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.text-title-hero {
+    font-size: 123px;
+}
+
+.text-title-hero-mobile {
+    font-size: 123px;
+}
+
+.text-title-hero-variant {
+    font-size: 186px;
+    color: #F5B002;
+}
+
+.text-subtitle-hero {
+    font-size: 49px;
+    line-height: 58px;
+}
+
+.text-button {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.text-column-title {
+    font-size: 85px;
+    line-height: 85%;
+    color: #F5B002;
+}
+
+.text-column-title-variant {
+    font-size: 55px;
+    line-height: 85%;
+    color: #F5B002;
+}
+
+.text-column-subtitle {
+    font-size: 25px;
+    line-height: 95%;
+    color: #FFFFFF;
+}
+
+.text-title-home {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+.text-title-card {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.text-content-card {
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.text-cost-card{
+    font-size: 70px;
+    line-height: 80px;
+    color: #F5B002;
+}
+
+.text-title-experience {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.text-subtitle-experience {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    color: black;
+}
+
+.text-subtitle-paquete {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.text-banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+}
+
+.text-banner-subtitle {
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.text-card-seller {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.text-content-card-fire {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.text-cost-card-fire {
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.text-input-form {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 20px;
+}
+
+.text-title-instalation {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+}
+
+.text-subtitle-instalation {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.text-title-footer {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.text-subtitle-footer {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+@media (min-width: 0px) and (max-width: 1022px){
+    /* page index */
+    .text-title-hero {
+        font-size: 70px;
+    }
+
+    .text-title-hero-variant {
+        font-size: 65px;
+        color: #F5B002;
+    }
+
+    .text-subtitle-hero {
+        font-size: 32px;
+        line-height: 58px;
+    }
+
+    .text-title-home {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .text-title-experience {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    /* end page index */
+
+    /* page tienda */
+    .text-banner-title {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .text-banner-subtitle {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    /* end page tienda */
+
+    /* page instalacion */
+    .text-title-instalation {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .text-subtitle-instalation {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    /* end page instalacion */
+}

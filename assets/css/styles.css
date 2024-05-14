@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+.link-navbar {
+    color: white;
+}
+
+/* using Tailwind's @apply directive */
+.btn-footer {
+    @apply rounded-full bg-yellow-500 text-black border-yellow-500 p-1
+}
+
+.btn-hero {
+    @apply bg-yellow-500 border-yellow-500 text-black
+}
+
+.btn-hero:hover {
+    @apply bg-yellow-400 border-yellow-500 text-black
+}
+
+.btn-content {
+    @apply bg-black border-yellow-500 text-white
+}
+
+.btn-content:hover {
+    @apply bg-gray-900 border-yellow-500 text-white
+}
+
+.btn-card {
+    @apply bg-[#1E1E1E] border-yellow-500 text-white
+}
+
+.btn-card:hover {
+    @apply bg-gray-800 border-yellow-500 text-white
+}
+
+.input-type-outline {
+    @apply flex-auto py-2 px-5 bg-transparent border-b border-yellow-500 focus:border-yellow-600 text-yellow-400 placeholder-gray-400 outline-none
+}
+
+.input-type-outline-footer {
+    @apply flex-auto py-2 px-5 bg-transparent border-b border-white focus:border-white text-white placeholder-gray-400 outline-none
+}
+
