@@ -27,7 +27,7 @@
                     <p class="lato-regular text-title-card uppercase">${{ costusd }} usd</p>
                 </div>
                 <div class="card-actions mt-10">
-                    <button class="btn btn-card px-10">Contratar</button>
+                    <button class="btn btn-card px-10" @click="sendWhatsapp">Contratar</button>
                 </div>
             </div>
         </div>
@@ -35,6 +35,7 @@
 </template>
 
 <script setup lang="ts">
+import { sendWhatsapp } from '~/assets/data/function';
 interface Benefits {
     title: string, 
     costmxn: number,

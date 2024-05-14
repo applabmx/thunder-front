@@ -146,10 +146,10 @@
             <div class="grid grid-cols-1">
                 <div class="text-position">
                     <h1 class="text-center lato-regular text-title-experience text-white">¡No te pierdas de nada!</h1>
-                    <p class="text-center lato-regular text-subtitle-paquete text-white">Tenemos el paquete perfecto para ti <br> comienza tu demo gratis ahora</p>
+                    <p class="text-center lato-regular text-subtitle-paquete text-white">Tenemos el paquete perfecto para ti <br> comienza y contrata ahora</p>
                     <div class="grid justify-items-center">
-                        <button class="btn btn-hero px-10 lato-regular mt-10">
-                            Quiero mi DEMO
+                        <button class="btn btn-hero px-10 lato-regular mt-10" @click="sendWhatsapp">
+                            Contratar Ahora
                         </button>
                     </div>
                 </div>
@@ -159,6 +159,7 @@
 </template>
 
 <script setup lang="ts">
+import { sendWhatsapp } from '~/assets/data/function';
 
 const title: Ref<string> = ref('Thunder | Home')
 const description: Ref<string> = ref('Thunder Entretenimieto Premium Tv Online Series de tv, peliculas, tv en vivo, eventos exclusivos y deportes') 

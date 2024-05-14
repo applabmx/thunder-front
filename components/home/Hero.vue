@@ -11,7 +11,7 @@
                     <p class="mb-5 text-subtitle-hero lato-regular">
                         Entretenimineto Premium TV Online
                     </p>
-                    <button class="btn btn-hero lato-regular text-button">Empieza tu DEMO Gratis</button>
+                    <button class="btn btn-hero lato-regular text-button" @click="sendWhatsapp">Contratar Ahora</button>
                 </div>
             </div>
         </div>
@@ -19,6 +19,9 @@
 </template>
 
 <script setup lang="ts">
+import { sendWhatsapp } from '~/assets/data/function'
+
+
 </script>
 
 <style scoped>

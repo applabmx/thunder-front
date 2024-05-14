@@ -71,8 +71,8 @@
 
                     <p class="mt-3 bayon-regular text-cost-card">{{ dataProduct.price.toLocaleString('en-US', {style: 'currency', currency: 'USD'}) }}</p>
                     <div>
-                        <button class="btn btn-content px-6 ">Agregar al carrito</button>
-                        <button class="btn btn-hero px-6 ml-6">Comprar ahora</button>
+                        <button class="btn btn-content px-6 " @click="sendWhatsapp">Agregar al carrito</button>
+                        <button class="btn btn-hero px-6 ml-6" @click="sendWhatsapp" >Comprar ahora</button>
                     </div>
                 </div>
             </div>
@@ -108,6 +108,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { EffectCube, Pagination, FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import { sendWhatsapp } from '~/assets/data/function';
 
 const dataProduct : Product = reactive({
     id: '',

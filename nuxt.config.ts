@@ -7,5 +7,13 @@ export default defineNuxtConfig({
     '~/assets/css/font.css',
     '@fortawesome/fontawesome-svg-core/styles.css'
   ],
-  modules: ["@nuxtjs/tailwindcss", "nuxt-icon"]
+  modules: ["@nuxtjs/tailwindcss", "nuxt-icon", 'nuxt-gtag'],
+  // gtag: {
+  //   id : 'G-D4BS9KM939'
+  // },
+  runtimeConfig: {
+    public: {
+      gtagId: 'G-D4BS9KM939',
+    }
+  }
 })

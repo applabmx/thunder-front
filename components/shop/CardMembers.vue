@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="card-actions">
-                    <button class="btn btn-card px-10">Contratar</button>
+                    <button class="btn btn-card px-10" @click="sendWhatsapp">Contratar</button>
                 </div>
             </div>
         </div>
@@ -29,8 +29,10 @@
 </template>
 
 <script setup lang="ts">
+import { sendWhatsapp } from '~/assets/data/function';
+
 interface Benefits {
-    title: String, 
+    title: string, 
     costmxn: number,
     costusd: number,
     list:  any,

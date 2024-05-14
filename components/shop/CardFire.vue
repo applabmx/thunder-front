@@ -13,7 +13,7 @@
                 </NuxtLink>
                 <p class="bayon-regular text-cost-card-fire main-color">{{ cost.toLocaleString('en-US', {style: 'currency', currency: 'USD'}) }}</p>
                 <div class="card-actions">
-                    <button class="btn btn-content px-8">Agregar al Carrito</button>
+                    <button class="btn btn-content px-8" @click="sendWhatsapp">Agregar al Carrito</button>
                 </div>
             </div>
         </div>
@@ -21,6 +21,7 @@
 </template>
 
 <script setup lang="ts">
+import { sendWhatsapp } from '~/assets/data/function';
 interface Articles{
     id: String,
     image: String,
