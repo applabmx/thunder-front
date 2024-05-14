@@ -178,7 +178,7 @@ const listBenefits: Ref<Array> = ref([
         pesos: 250, 
         dollar: 16, 
         beneficios: [
-            {img: '/images/distribuidor/dispositivos.png', text: '1 Dispositivo a la vez'}, 
+            // {img: '/images/distribuidor/dispositivos.png', text: '1 Dispositivo a la vez'}, 
             {img: '/images/distribuidor/resolucion.png', text: 'Resolucion Full HD'}
         ] 
     },
@@ -187,7 +187,7 @@ const listBenefits: Ref<Array> = ref([
         pesos: 675, 
         dollar: 41, 
         beneficios: [
-            {img: '/images/distribuidor/dispositivos.png', text: '2 Dispositivo a la vez'}, 
+            // {img: '/images/distribuidor/dispositivos.png', text: '2 Dispositivo a la vez'}, 
             {img: '/images/distribuidor/resolucion.png', text: 'Resolucion Full HD'}
         ] 
     },
@@ -196,7 +196,7 @@ const listBenefits: Ref<Array> = ref([
         pesos: 1275, 
         dollar: 72, 
         beneficios: [
-            {img: '/images/distribuidor/dispositivos.png', text: '2 dispositivo a la vez'}, 
+            // {img: '/images/distribuidor/dispositivos.png', text: '2 dispositivo a la vez'}, 
             {img: '/images/distribuidor/resolucion.png', text: 'Resolucion Full HD'},
             {img: '/images/distribuidor/descargas.png', text: '30 Descargas para ver offline'}
         ] 
@@ -206,7 +206,7 @@ const listBenefits: Ref<Array> = ref([
         pesos: 2250, 
         dollar: 130, 
         beneficios: [
-            {img: '/images/distribuidor/dispositivos.png', text: '2 Dispositivo a la vez'}, 
+            // {img: '/images/distribuidor/dispositivos.png', text: '2 Dispositivo a la vez'}, 
             {img: '/images/distribuidor/resolucion.png', text: 'Resolucion FulL HD'},
             {img: '/images/distribuidor/audio.png', text: 'Audio Dolby'},
             {img: '/images/distribuidor/descargas.png', text: '30 Descargas para ver offline'}
