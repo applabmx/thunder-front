@@ -1,3 +1,3 @@
 export const sendWhatsapp = () => {
-    window.open('https://wa.me/524463640683')
+    window.open('https://wa.me/524424236101')
 }
