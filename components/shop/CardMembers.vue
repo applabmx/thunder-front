@@ -15,7 +15,7 @@
                     <div class="grid grid-cols-1 gap-4">
                         <div>
                             <p class="bayon-regular text-cost-card mt-10">${{ Intl.NumberFormat().format(costmxn) }}</p>
-                            <p class="lato-regular text-title-card uppercase mb-8">${{ costusd }} USD</p>
+                            <p class="lato-regular text-title-card uppercase mb-8"></p>
                         </div>
                     </div>
                 </div>

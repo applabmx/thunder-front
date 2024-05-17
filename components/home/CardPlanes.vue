@@ -24,7 +24,7 @@
                 <p></p>
                 <div>
                     <p class="bayon-regular text-cost-card">${{ Intl.NumberFormat().format(costmxn) }}</p>
-                    <p class="lato-regular text-title-card uppercase">${{ costusd }} usd</p>
+                    <!-- <p class="lato-regular text-title-card uppercase">${{ costusd }} usd</p> -->
                 </div>
                 <div class="card-actions mt-10">
                     <button class="btn btn-card px-10" @click="sendWhatsapp">Contratar</button>

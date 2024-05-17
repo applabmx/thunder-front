@@ -194,7 +194,7 @@ const listBenefits: Ref<Array> = ref([
     },
     { 
         title: 'Thundertv 6 mes', 
-        pesos: 1275, 
+        pesos: 1200, 
         dollar: 72, 
         beneficios: [
             // {img: '/images/distribuidor/dispositivos.png', text: '2 dispositivo a la vez'}, 
@@ -204,7 +204,7 @@ const listBenefits: Ref<Array> = ref([
     },
     { 
         title: 'Thundertv 1 año', 
-        pesos: 2250, 
+        pesos: 2160, 
         dollar: 130, 
         beneficios: [
             // {img: '/images/distribuidor/dispositivos.png', text: '2 Dispositivo a la vez'}, 
